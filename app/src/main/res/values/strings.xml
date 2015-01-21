@@ -7,4 +7,6 @@
     <string name="zoom_In_Out">Zoom In/Out</string>
     <string name="rotate_String">Clockwise/Anti Clockwise</string>
     <string name="fade_String">Fade In/Out</string>
+    <string name="fade_out">Fade Out</string>
+    <string name="fade_in">Fade In</string>
 </resources>
