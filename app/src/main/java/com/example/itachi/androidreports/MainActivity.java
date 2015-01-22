@@ -43,9 +43,6 @@ public class MainActivity extends ActionBarActivity {
                 image.startAnimation(animFade);
             }
         });
-
-//        image.startAnimation(animFadeIn);
-
     }
 
 
@@ -78,6 +75,16 @@ public class MainActivity extends ActionBarActivity {
                 ImageView image2 = (ImageView)findViewById(R.id.image_id);
                 Animation animation2 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
                 image2.startAnimation(animation2);
+                return true;
+            case R.id.fadeAndRotate:
+                ImageView image3 = (ImageView)findViewById(R.id.image_id);
+                Animation animation3 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_out_and_rotate);
+                image3.startAnimation(animation3);
+                return true;
+            case R.id.translate:
+                ImageView image4 = (ImageView)findViewById(R.id.image_id);
+                Animation animation4 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.translate);
+                image4.startAnimation(animation4);
                 return true;
         }
         return false;

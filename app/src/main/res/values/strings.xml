@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">AndroidReports</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="zoom_In_Out">Zoom In/Out</string>
-    <string name="rotate_String">Clockwise/Anti Clockwise</string>
-    <string name="fade_String">Fade In/Out</string>
+    <string name="rotate_string">Rotate</string>
+    <string name="fade_string">Fade In And Fade Out</string>
     <string name="fade_out">Fade Out</string>
     <string name="fade_in">Fade In</string>
+    <string name="fade_and_rotate_string"> Fade Out And Rotate</string>
+    <string name="translate">Translate</string>
 </resources>
