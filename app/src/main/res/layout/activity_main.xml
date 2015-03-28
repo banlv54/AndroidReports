@@ -32,4 +32,12 @@
         android:layout_toRightOf="@+id/image_id"
         android:layout_toEndOf="@+id/image_id" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Property"
+        android:id="@+id/property"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>

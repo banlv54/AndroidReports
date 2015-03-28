@@ -5,6 +5,7 @@
         android:startOffset="1000"
         android:fromAlpha="0"
         android:toAlpha="1"
+        android:repeatCount="infinite"
         android:duration="4000" >
     </alpha>
 </set>

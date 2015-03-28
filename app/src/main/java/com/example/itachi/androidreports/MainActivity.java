@@ -1,5 +1,6 @@
 package com.example.itachi.androidreports;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -14,8 +15,7 @@ import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity {
     private Animation animFade;
-    private Button fade_in;
-    private Button fade_out;
+    private Button fade_in, fade_out, property;
     private ImageView image;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,7 @@ public class MainActivity extends ActionBarActivity {
         image = (ImageView)findViewById(R.id.image_id);
         fade_in = (Button)findViewById(R.id.fade_in);
         fade_out = (Button)findViewById(R.id.fade_out);
+        property = (Button)findViewById(R.id.property);
         // end
 
         // set on click
@@ -41,6 +42,14 @@ public class MainActivity extends ActionBarActivity {
             public void onClick(View v) {
                 animFade = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_out);
                 image.startAnimation(animFade);
+            }
+        });
+
+        property.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent property_intent = new Intent(getApplication(), PropertyAnimation.class);
+                startActivity(property_intent);
             }
         });
     }

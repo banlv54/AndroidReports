@@ -10,4 +10,9 @@
     <string name="fade_in">Fade In</string>
     <string name="fade_and_rotate_string"> Fade Out And Rotate</string>
     <string name="translate">Translate</string>
+    <string name="wheel">Steering Wheel</string>
+    <string name="ground">The Ground</string>
+    <string name="window">Window Frame</string>
+    <string name="sun">The Sun</string>
+    <string name="cloud">A Cloud</string>
 </resources>
